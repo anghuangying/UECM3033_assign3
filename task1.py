@@ -5,10 +5,17 @@ import sympy as sy
 
 # DO NOT CHANGE THE NAME OF gausslegendre() function
 def gausslegendre(f, a, b, n=20):
-    ans = 0
-    # Edit here to implement your code
-
-    return ans
+    
+    # wf is the weight multiply by the function f(y)
+    wf=0 
+    #X is sample point, W is weight
+    X,W=np.polynomial.legendre.leggauss(n)       
+    i=1
+    for i in range(n):
+    #Translate x values from the interval [0, 1] to [a, b]
+       y= 0.5*(b-a)*X[i]+ 0.5*(a+b)
+       wf = wf+ W[i]*f(y)
+    return np.array(0.5*(b-a)*wf)
 
 if __name__ == "__main__":
     def f(x):
