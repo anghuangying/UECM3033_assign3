@@ -46,7 +46,7 @@ The bottom graph shows inversely relationship between the number of prey, y0 and
 
 ![Graph_y1_against_y0_1.jpg](Graph_y1_against_y0_1.jpg)
 
-When initial condition y0(0)0.11, y1 is 1.0.
+When initial condition y0(0)=0.11, y1(0)=1.0.
 
 
 ![Graph_Population_against_Time_2.jpg](Graph_Population_against_Time_2.jpg)
