@@ -35,6 +35,7 @@ where parameters a and b were given as 1.0 and 0.2 respectively. Moreover, y_ini
 
 
 Put your graphs here and explain.
+
 y0 represent as prey and y1 represent as predator.
 The graph below shows that population against time when the initial condition y0(0)=0.1. It indicate that the higher the number of prey when the lower the number of predator. 
 
